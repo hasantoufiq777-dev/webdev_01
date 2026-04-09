@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KUET Gaming Club | Contact</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body data-theme="dark" data-page="contact">
+    <div id="site-header"></div>
+
+    <main>
+      <section class="page-hero container">
+        <h1 class="reveal">Contact Us</h1>
+        <p class="reveal">Join the KUET gaming community and stay connected with upcoming tournaments.</p>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <form id="contact-form" class="form card reveal" novalidate>
+            <div>
+              <label for="name">Name</label>
+              <input class="input" id="name" name="name" type="text" placeholder="Enter your name" />
+              <small class="error"></small>
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input class="input" id="email" name="email" type="email" placeholder="Enter your email" />
+              <small class="error"></small>
+            </div>
+            <div>
+              <label for="message">Message</label>
+              <textarea class="input" id="message" name="message" rows="5" placeholder="Tell us about your gaming interests"></textarea>
+              <small class="error"></small>
+            </div>
+            <button class="btn btn-primary neon" type="submit">Send Message</button>
+            <p id="form-success" class="form-success">Thanks for reaching out. We will contact you soon.</p>
+          </form>
+
+          <div class="socials reveal">
+            <a class="social-link" href="#" aria-label="Discord">Discord</a>
+            <a class="social-link" href="#" aria-label="Facebook">Facebook</a>
+            <a class="social-link" href="#" aria-label="YouTube">YouTube</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div id="site-footer"></div>
+
+    <script src="js/components.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/contact.js"></script>
+  </body>
+</html>

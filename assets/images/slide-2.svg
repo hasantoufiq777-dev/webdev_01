@@ -1,0 +1,13 @@
+<svg width="1000" height="600" viewBox="0 0 1000 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#081526"/>
+      <stop offset="100%" stop-color="#00477d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="600" fill="url(#bg2)"/>
+  <rect x="620" y="90" width="250" height="250" rx="24" fill="#00d9ff33"/>
+  <circle cx="250" cy="400" r="170" fill="#5f7dff2b"/>
+  <text x="80" y="130" fill="#b4f2ff" font-family="Arial" font-size="56" font-weight="700">FIFA RIVAL ARENA</text>
+  <text x="80" y="190" fill="#d8f0ff" font-family="Arial" font-size="28">Fast feet, smart passes, and high-stakes finals.</text>
+</svg>

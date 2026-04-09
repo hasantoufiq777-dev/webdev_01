@@ -1,0 +1,13 @@
+<svg width="1000" height="600" viewBox="0 0 1000 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#120f24"/>
+      <stop offset="100%" stop-color="#2e1a4d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="600" fill="url(#bg3)"/>
+  <polygon points="640,130 880,220 750,390 570,310" fill="#ff7a5933"/>
+  <circle cx="220" cy="430" r="190" fill="#8f3dff2a"/>
+  <text x="80" y="130" fill="#f5c8ff" font-family="Arial" font-size="56" font-weight="700">PUBG DROP ZONE</text>
+  <text x="80" y="190" fill="#f5dfff" font-family="Arial" font-size="28">Squad up. Loot smart. Conquer the final circle.</text>
+</svg>
