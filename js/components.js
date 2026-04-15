@@ -4,7 +4,9 @@ const navLinks = [
   { href: 'members.html', label: 'Members' },
   { href: 'events.html', label: 'Events' },
   { href: 'gallery.html', label: 'Gallery' },
-  { href: 'contact.html', label: 'Contact' }
+  { href: 'contact.html', label: 'Contact' },
+  { href: 'signin.html', label: 'Sign In', auth: true },
+  { href: 'signup.html', label: 'Sign Up', auth: true, primary: true }
 ];
 
 function getCurrentPage() {
@@ -20,7 +22,9 @@ function renderHeader() {
   const linksMarkup = navLinks
     .map((item) => {
       const active = item.href === current ? 'active' : '';
-      return `<li><a class="nav-link ${active}" href="${item.href}">${item.label}</a></li>`;
+      const authClass = item.auth ? 'nav-auth-link' : '';
+      const primaryClass = item.primary ? 'nav-auth-primary' : '';
+      return `<li><a class="nav-link ${authClass} ${primaryClass} ${active}" href="${item.href}">${item.label}</a></li>`;
     })
     .join('');
 
