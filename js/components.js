@@ -5,8 +5,8 @@ const navLinks = [
   { href: 'events.html', label: 'Events' },
   { href: 'gallery.html', label: 'Gallery' },
   { href: 'contact.html', label: 'Contact' },
-  { href: 'signin.html', label: 'Sign In', auth: true },
-  { href: 'signup.html', label: 'Sign Up', auth: true, primary: true }
+  { href: 'achievements.html', label: 'Achievement' },
+  { href: 'signin.html', label: 'Sign In', auth: true }
 ];
 
 function getCurrentPage() {
@@ -39,7 +39,19 @@ function renderHeader() {
           ${linksMarkup}
         </ul>
         <div class="nav-controls">
-          <button id="theme-btn" class="theme-btn" aria-label="Toggle theme">☾</button>
+          <div class="profile-wrap">
+            <button id="profile-btn" class="profile-btn" aria-label="Open profile" aria-expanded="false">
+              <span class="profile-sticker">NH</span>
+            </button>
+            <div id="profile-menu" class="profile-menu" hidden>
+              <div class="profile-head">
+                <div class="profile-avatar">NH</div>
+                <div>
+                  <h4>Nibir Hasan</h4>
+                </div>
+              </div>
+            </div>
+          </div>
           <button id="menu-btn" class="menu-btn" aria-label="Open menu">☰</button>
         </div>
       </div>
@@ -62,7 +74,8 @@ function renderFooter() {
           <h4>Quick Links</h4>
           <p><a href="about.html">About Us</a></p>
           <p><a href="events.html">Tournaments</a></p>
-          <p><a href="contact.html">Join Community</a></p>
+          <p><a href="contact.html">Contact Us</a></p>
+          <p><a href="signup.html">Join Us</a></p>
         </div>
         <div>
           <h4>Contact</h4>
