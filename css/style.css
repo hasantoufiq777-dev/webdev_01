@@ -46,9 +46,8 @@ html {
 body {
   font-family: 'Poppins', sans-serif;
   background:
-    radial-gradient(circle at 0% 0%, rgba(19, 216, 184, 0.16), transparent 26%),
-    radial-gradient(circle at 90% 10%, rgba(31, 140, 255, 0.18), transparent 30%),
-    linear-gradient(160deg, var(--bg), var(--bg-soft) 60%, #0a1d31 100%);
+    linear-gradient(160deg, rgba(4, 12, 24, 0.84), rgba(8, 20, 35, 0.72) 55%, rgba(6, 16, 30, 0.9)),
+    url('../assets/images/bg.jpg') center center / cover no-repeat fixed;
   color: var(--text);
   min-height: 100vh;
   line-height: 1.6;
